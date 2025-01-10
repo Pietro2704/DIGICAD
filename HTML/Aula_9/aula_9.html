@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 9</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="form-container">
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="name">Nome Completo</label>
+        <input type="text" id="name" name="name" required
+          placeholder="Digite seu nome"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="exemplo@exemplo.com"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Senha</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          placeholder="Digite sua senha"
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Gênero</label>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="gender" value="masculino" required />
+            Masculino
+          </label>
+          <label>
+            <input type="radio" name="gender" value="feminino" />
+            Feminino</label
+          >
+          <label
+            ><input type="radio" name="gender" value="outro" /> Outro</label
+          >
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Interesses</label>
+        <div class="checkbox-group">
+          <label>
+            <input type="checkbox" name="interests" value="tecnologia" />
+            Tecnologia
+          </label>       
+          <label>
+            <input type="checkbox" name="interests" value="musica" />
+            Música
+          </label>
+          <label>
+            <input type="checkbox" name="interests" value="esporte" />
+            Esporte
+          </label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="about">Sobre você</label>
+        <textarea
+          id="about"
+          name="about"
+          rows="4"
+          placeholder="Fale um pouco sobre você"
+        ></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="country">País</label>
+        <select id="country" name="country" required>
+          <option value="">Selecione seu país</option>
+          <option value="brasil">Brasil</option>
+          <option value="eua">Estados Unidos</option>
+          <option value="canada">Canadá</option>
+          <option value="portugal">Portugal</option>
+        </select>
+      </div>
+
+      <input type="submit" value="Enviar" class="submit-btn" />
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  background-color: rgba(0, 0, 0, 0.846);
+}
+
+header{
+  border: 3px solid red;
+}
+header h1{
+  border: 3px solid blue;
+  font-family: "Doto";
+  font-size: 50px;
+  color: red;
+  text-align: center;
+}
+section{
+  border: 3px solid green;
+}
+p{
+  font-family: "itim";
+  color: whitesmoke;
+}
+section > h2{
+  text-align: center;
+  font-family: "Roboto";
+  color: green;
+}
+article{
+  border: 3px solid yellow;
+  width: 60%;
+}
+article > h2{
+  text-align: center;
+  background-color: cyan;
+}
+aside{
+  border: 3px solid violet;
+}
+footer{
+  border: 3px solid steelblue;
+}
+div{
+  border: 3px solid dodgerblue;
+  width: 80%;
+}
+iframe{
+  width: 60%;
+}
+
